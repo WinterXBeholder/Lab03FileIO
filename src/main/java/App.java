@@ -12,6 +12,8 @@ public class App {
     public static void main(String[] args) {
         // File file = new File();
         handleFile("README.txt");
+        // TODO: abstract file reading from handleFile() and appendLines()
+        // TODO: move more functionality into Main
     }
 
     public static void handleFile(String filename) {
